@@ -1,0 +1,22 @@
+mysql> create database msms;
+
+mysql> use msms;
+
+mysql> create table login(
+    -> username varchar(50),
+    -> fullname varchar(50),
+    -> birthdate varchar(50),
+    -> gender varchar(50),
+    -> password varchar(50),
+    -> mob varchar(50),
+    -> address varchar(500)
+    -> );
+
+mysql> create table meeting(
+    -> date varchar(55)
+    -> ,time varchar(55),
+    -> location varchar(55),
+    -> am varchar(55),
+    -> reason varchar(55)
+    -> );
+
